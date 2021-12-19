@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+  
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+      <li><a class="dropdown-item" href="reserve.html">Reserve Lane Now</a></li>
+      <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+      <li><a class="dropdown-item" href="waiver.html">Waiver</a></li>
+  </ul>  
+
+
+        
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <h1>Waiver</h1>
+    <p>Open a PDF file <a target="_blank" href="Release of Liability.pdf">Waiver </a>.</p>   
+    
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    I agree
+  </label>
+ </div>
+
+ <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Signature</label>
+    <input type="signature" class="form-control" id="exampleFormControlInput1" placeholder="Sign Here">
+  </div>
+  
+  
+ <button type="submit" class="btn btn-secondary">Submit</button>
+ <a class="btn btn-secondary" href="index.html" role="button">Exit</a>
+
+</body>
+</html>
